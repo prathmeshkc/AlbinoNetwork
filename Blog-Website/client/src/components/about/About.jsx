@@ -5,6 +5,7 @@ import Accordion from '@mui/material/Accordion';
 import AccordionSummary from '@mui/material/AccordionSummary';
 import AccordionDetails from '@mui/material/AccordionDetails';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
+import "./styles.css"
 
 const Banner = styled(Box)`
     background-image: url(https://cdn.mos.cms.futurecdn.net/WKsdDcbVSEWL6zaQjB6e9L-1200-80.jpg);
@@ -34,7 +35,9 @@ const About = () => {
         <Box>
             <Banner/>
             <Wrapper>
-                <Typography variant="h3">Albinism from our Eyes !</Typography>
+                <div class="three">
+                  <h1>Albinism from our Eyes !</h1>
+                </div>
                 <Text variant="h5">Albinism is a skin disorder that's been neglected from
                 the society since ages. Our goal is to spread <storng>Awareness</storng> and 
                 create a platform which could act as a <storng>congenial atmosphere</storng> for all Albino's

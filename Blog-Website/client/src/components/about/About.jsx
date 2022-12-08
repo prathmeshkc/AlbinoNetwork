@@ -37,7 +37,7 @@ const About = () => {
                 <Typography variant="h3">Albinism from our Eyes !</Typography>
                 <Text variant="h5">Albinism is a skin disorder that's been neglected from
                 the society since ages. Our goal is to spread <storng>Awareness</storng> and 
-                create a platform which could act as a <storng>>congenial atmosphere</storng> for all Albino's
+                create a platform which could act as a <storng>congenial atmosphere</storng> for all Albino's
                 to connect <br />
                 
                 </Text>

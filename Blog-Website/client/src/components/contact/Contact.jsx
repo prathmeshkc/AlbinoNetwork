@@ -27,12 +27,25 @@ const Contact = () => {
         <Box>
             <Banner />
             <Wrapper>
-                <Typography variant="h3">Getting in touch is easy!</Typography>    
+                <Typography variant="h3">Alibino Problems are REAL !!!!</Typography>    
                 <Text variant="h5">
-                    Reach out to me on
-                    <Link href="https://www.instagram.com/codeforinterview/" color="inherit" target="_blank">
-                        <Instagram/>
-                    </Link>
+                    Albinism problems remain unspoken. While discussing the problems with
+                    loved ones always helps, contacting for help to the right experts
+                    can help mitigate some pain. The following organizations work hard to make
+                    life for Albino's better everyday.
+                    <ul>
+                        <li>
+                            The National Organization for Albinism and Hypopigmentation (NOAH) <br></br>
+                            Email:  <Link href="info@albinism.org" color="inherit" target="_blank"> info@albinism.org </Link>
+                        </li>
+                        <li>
+                             The Albino Foundation <br></br>
+                            Email:  <Link href="info@albinism.org" color="inherit" target="_blank"> info@albinism.org </Link>
+                        </li>
+                    </ul>
+                    
+                   
+                       
                     or send me an Email 
                     <Link href="mailto:codeforinterview@gmail.com?Subject=This is a subject" target="_blank" color="inherit">
                         <Email />

@@ -28,6 +28,10 @@ export default class App extends Component {
         {isloading ? (
           <ReactLoading type={"bars"} color="#021155" />
         ) : (
+
+          <><div class="three">
+          <h1>Our Community Members</h1>
+        </div>
           <div className="cards">
             {res?.data?.data?.map((x) => {
               return (
@@ -38,7 +42,9 @@ export default class App extends Component {
                 />
               );
             })}
-          </div>
+          </div></>
+
+
         )}
       </>
     );

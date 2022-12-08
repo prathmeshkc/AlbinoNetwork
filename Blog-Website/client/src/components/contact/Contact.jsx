@@ -18,7 +18,7 @@ const Wrapper = styled(Box)`
 `;
 
 const Text = styled(Typography)`
-    color: #878787;
+    color: #000000;
 `;
 
 

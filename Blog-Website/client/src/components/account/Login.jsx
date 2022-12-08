@@ -13,7 +13,7 @@ const Component = styled(Box)`
 `;
 
 const Image = styled('img')({
-    width: 100,
+    width: 250,
     display: 'flex',
     margin: 'auto',
     padding: '50px 0 0'
@@ -80,7 +80,8 @@ const Login = ({ isUserAuthenticated }) => {
     const navigate = useNavigate();
     const { setAccount } = useContext(DataContext);
 
-    const imageURL = 'https://www.sesta.it/wp-content/uploads/2021/03/logo-blog-sesta-trasparente.png';
+    // const imageURL = 'https://www.sesta.it/wp-content/uploads/2021/03/logo-blog-sesta-trasparente.png';
+    const imageURL = 'https://res.cloudinary.com/dcqa6vckq/image/upload/v1670523298/AlbinoNetwork_Profile_Pictures/LogoAN_w2bqsj.png';
 
     useEffect(() => {
         showError(false);

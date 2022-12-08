@@ -55,7 +55,7 @@ const Author = styled(Box)(({ theme }) => ({
 }));
 
 const DetailView = () => {
-    const url = 'https://images.unsplash.com/photo-1543128639-4cb7e6eeef1b?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bGFwdG9wJTIwc2V0dXB8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80';
+    const url = 'https://da4e1j5r7gw87.cloudfront.net/wp-content/uploads/sites/2470/2018/11/Porcelain-Beauty-2-Showcases-The-Unique-Beauty-Of-Albinism-.jpg';
     
     const [post, setPost] = useState({});
     const { account } = useContext(DataContext);

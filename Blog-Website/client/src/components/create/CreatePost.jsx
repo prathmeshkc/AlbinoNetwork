@@ -59,7 +59,7 @@ const CreatePost = () => {
     const [file, setFile] = useState('');
     const { account } = useContext(DataContext);
 
-    const url = post.picture ? post.picture : 'https://images.unsplash.com/photo-1543128639-4cb7e6eeef1b?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bGFwdG9wJTIwc2V0dXB8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80';
+    const url = post.picture ? post.picture : 'amina-ependieva-portraiture-3.jpg';
     
     useEffect(() => {
         const getImage = async () => { 
@@ -101,7 +101,7 @@ const CreatePost = () => {
                     onChange={(e) => setFile(e.target.files[0])}
                 />
                 <InputTextField onChange={(e) => handleChange(e)} name='title' placeholder="Title" />
-                <Button onClick={() => savePost()} variant="contained" color="primary">Publish</Button>
+                <Button onClick={() => savePost()} variant="contained" color="primary">Publish Post</Button>
             </StyledFormControl>
 
             <Textarea

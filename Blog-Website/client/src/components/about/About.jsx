@@ -13,8 +13,6 @@ const Banner = styled(Box)`
     background-position: center;
     background-size: cover;
     
-
-
 `;
 
 const Wrapper = styled(Box)`
@@ -25,7 +23,8 @@ const Wrapper = styled(Box)`
 `;
 
 const Text = styled(Typography)`
-    color: #878787;
+    color: #000000;
+    // font-family: "Montserrat";
 `;
 
 const About = () => {
@@ -53,7 +52,7 @@ const About = () => {
             aria-controls="panel1a-content"
             id="panel1a-header"
             >
-          <Typography style = {{color: "#2f2418"}}><strong> What is Albinism?</strong></Typography>
+          <Typography style = {{color: "#2f2418", fontSize: 18}}><strong> What is Albinism?</strong></Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
@@ -75,20 +74,20 @@ const About = () => {
                         maximize their vision. </p>
           </Typography>
         </AccordionDetails>
+        
       </Accordion>
       <Accordion>
         <AccordionSummary
-         style = {{backgroundColor: "#FBEEE5"}}
+         style = {{backgroundColor: "#FBEEE5",marginTop:20}}
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel2a-content"
           id="panel2a-header"
         >
-          <Typography style = {{color: "#2f2418"}}><strong>What are the types of Albinism?</strong></Typography>
+          <Typography style = {{color: "#2f2418", fontSize: 18}}><strong>What are the types of Albinism?</strong></Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
              The 2 main types of albinism are:
-
              <ul>
                 <li>
                     <h3> Oculocutaneous Albinism (OCA)</h3>
@@ -104,12 +103,12 @@ const About = () => {
       </Accordion>
       <Accordion>
         <AccordionSummary
-         style = {{backgroundColor: "#FBEEE5"}}
+         style = {{backgroundColor: "#FBEEE5",marginTop:20}}
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel3a-content"
           id="panel3a-header"
         >
-          <Typography style = {{color: "#2f2418"}}><strong> What are the signs of Albinism?</strong></Typography>
+          <Typography style = {{color: "#2f2418", fontSize: 18}}><strong> What are the signs of Albinism?</strong></Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>

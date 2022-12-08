@@ -148,7 +148,7 @@ const Login = ({ isUserAuthenticated }) => {
                             <TextField variant="standard" onChange={(e) => onInputChange(e)} name='username' label='Enter Username' />
                             <TextField variant="standard" onChange={(e) => onInputChange(e)} name='password' label='Enter Password' />
 
-                            <SignupButton onClick={() => signupUser()} >Signup</SignupButton>
+                            <SignupButton onClick={() => signupUser()} >SignUp</SignupButton>
                             <Text style={{ textAlign: 'center' }}>OR</Text>
                             <LoginButton variant="contained" onClick={() => toggleSignup()}>Already have an account</LoginButton>
                         </Wrapper>

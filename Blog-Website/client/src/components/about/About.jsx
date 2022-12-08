@@ -34,25 +34,15 @@ const About = () => {
         <Box>
             <Banner/>
             <Wrapper>
-                <Typography variant="h3">Code for Interview</Typography>
-                <Text variant="h5">I'm a Software Engineer based in India. 
-                    I've built websites, desktop applications and corporate software.<br />
-                    If you are interested, you can view some of my favorite projects here
-                    <Box component="span" style={{ marginLeft: 5 }}>
-                        <Link href="https://github.com/kunaltyagi9" color="inherit" target="_blank"><GitHub /></Link>
-                    </Box>
+                <Typography variant="h3">Albinism from our Eyes !</Typography>
+                <Text variant="h5">Albinism is a skin disorder that's been neglected from
+                the society since ages. Our goal is to spread <storng>Awareness</storng> and 
+                create a platform which could act as a <storng>>congenial atmosphere</storng> for all Albino's
+                to connect <br />
+                
                 </Text>
                 <Text variant="h5">
-                    Need something built or simply want to have chat? Reach out to me on
-                    <Box component="span" style={{ marginLeft: 5 }}>
-                        <Link href="https://www.instagram.com/codeforinterview/" color="inherit" target="_blank">
-                            <Instagram />
-                        </Link>
-                    </Box>  
-                        or send me an Email 
-                        <Link href="mailto:codeforinterview@gmail.com?Subject=This is a subject" target="_blank" color="inherit">
-                            <Email />
-                        </Link>.
+                    Let's understand Albinism in a little detail
                 </Text>
             </Wrapper>
 
@@ -93,7 +83,7 @@ const About = () => {
           aria-controls="panel2a-content"
           id="panel2a-header"
         >
-          <Typography style = {{color: "#566e72"}}><strong>What are the types of Albinism?</strong></Typography>
+          <Typography style = {{color: "#2f2418"}}><strong>What are the types of Albinism?</strong></Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
@@ -119,7 +109,7 @@ const About = () => {
           aria-controls="panel3a-content"
           id="panel3a-header"
         >
-          <Typography style = {{color: "#566e72"}}><strong> What are the signs of Albinism?</strong></Typography>
+          <Typography style = {{color: "#2f2418"}}><strong> What are the signs of Albinism?</strong></Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>

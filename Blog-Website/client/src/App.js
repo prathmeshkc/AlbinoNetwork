@@ -13,6 +13,7 @@ import Update from './components/create/Update';
 import About from './components/about/About';
 import Contact from './components/contact/Contact';
 import Login from './components/account/Login';
+import Community from './components/community/community';
 
 const PrivateRoute = ({ isAuthenticated, ...props }) => {
   const token = sessionStorage.getItem('accessToken');
@@ -56,6 +57,10 @@ function App() {
 
             <Route path='/contact' element={<PrivateRoute isAuthenticated={isAuthenticated} />} >
               <Route path='/contact' element={<Contact />} />
+            </Route>
+
+            <Route path='/community' element={<PrivateRoute isAuthenticated={isAuthenticated} />} >
+              <Route path='/community' element={<Community />} />
             </Route>
           </Routes>
         </Box>

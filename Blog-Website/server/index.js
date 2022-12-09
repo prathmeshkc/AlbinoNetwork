@@ -19,8 +19,8 @@ app.use('/', Router);
 
 
 const PORT = 8000;
-const username = "Ritesh";
-const password = "admin";
+const username = process.env.DB_USERNAME;
+const password = process.env.DB_PASSWORD;
 
 Connection(username, password);
 

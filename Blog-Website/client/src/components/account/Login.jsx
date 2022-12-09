@@ -144,9 +144,9 @@ const Login = ({ isUserAuthenticated }) => {
                             <SignupButton onClick={() => toggleSignup()} style={{ marginBottom: 50 }}>Create an account</SignupButton>
                         </Wrapper> :
                         <Wrapper>
-                            <TextField variant="standard" onChange={(e) => onInputChange(e)} name='name' label='Enter Name' />
-                            <TextField variant="standard" onChange={(e) => onInputChange(e)} name='username' label='Enter Username' />
-                            <TextField variant="standard" onChange={(e) => onInputChange(e)} name='password' label='Enter Password' />
+                            <TextField variant="standard" onChange={(e) => onInputChange(e)} name='name' label='Enter Name' value={signup.name || ''}/>
+                            <TextField variant="standard" onChange={(e) => onInputChange(e)} name='username' label='Enter Username' value={signup.username || ''}/>
+                            <TextField variant="standard" onChange={(e) => onInputChange(e)} name='password' label='Enter Password' value={signup.password || ''}/>
 
                             <SignupButton onClick={() => signupUser()} >SignUp</SignupButton>
                             <Text style={{ textAlign: 'center' }}>OR</Text>

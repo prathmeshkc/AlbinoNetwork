@@ -27,7 +27,9 @@ const Contact = () => {
         <Box>
             <Banner />
             <Wrapper>
-                <Typography variant="h3" fontFamily={"Roboto"}>Alibino Problems are REAL !!!!</Typography>
+            <div class="three">
+          <h1>Our Community Members</h1>
+        </div>
                 <Text variant="h5">
                     Albinism problems remain unspoken. While discussing the problems with
                     loved ones always helps, contacting for help to the right experts

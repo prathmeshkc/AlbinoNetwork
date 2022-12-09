@@ -119,13 +119,13 @@ const About = () => {
 
              <ol>
                 <li>
-                   an absence of color in the skin, hair, or eyes
+                   An absence of color in the skin, hair, or eyes
                 </li>
                 <li>
-                    lighter than normal coloring of the skin, hair, or eyes
+                    Lighter than normal coloring of the skin, hair, or eyes
                 </li>
                 <li>
-                    patches of skin that have an absence of color
+                    Patches of skin that have an absence of color
                 </li>
              </ol>
 

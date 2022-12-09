@@ -1,5 +1,4 @@
 import { Box, styled, Typography, Link } from '@mui/material';
-import { GitHub, Instagram, Email } from '@mui/icons-material';
 import * as React from 'react';
 import Accordion from '@mui/material/Accordion';
 import AccordionSummary from '@mui/material/AccordionSummary';
@@ -60,12 +59,10 @@ const About = () => {
         <AccordionDetails>
           <Typography>
             <strong>Albinism </strong>typically refers to oculocutaneous (ok-u-low-ku-TAY-nee-us) albinism
-                        (OCA) — a group of inherited
-                        disorders where there is little or no production of the pigment melanin. The type and amount of
-                        melanin your body
-                        produces determines the color of your skin, hair and eyes. Melanin also plays a role in the
-                        development of optic nerves,
-                        so people with albinism have vision problems.
+                        (OCA) — a group of inherited disorders where there is little or no production of 
+                        the pigment melanin. The type and amount of melanin your body produces determines the 
+                        color of your skin, hair and eyes. Melanin also plays a role in the development of optic 
+                        nerves, so people with albinism have vision problems.
             <p>Signs of albinism are usually apparent in a person's skin, hair and eye color, but sometimes
                         differences are slight.
                         People with albinism are also sensitive to the effects of the sun, so they're at increased risk
@@ -94,11 +91,11 @@ const About = () => {
              <ul>
                 <li>
                     <h3> Oculocutaneous Albinism (OCA)</h3>
-                    The most common type, affecting the skin, hair and eyes
+                    The most common type, affecting the skin, hair and eyes.
                 </li>
                 <li>
                     <h3> Ocular Albinism (OA)</h3>
-                    A rarer type that mainly affects the eyes
+                    A rarer type that mainly affects the eyes.
                 </li>
              </ul>
           </Typography>
@@ -119,13 +116,13 @@ const About = () => {
 
              <ol>
                 <li>
-                   an absence of color in the skin, hair, or eyes
+                   An absence of color in the skin, hair, or eyes
                 </li>
                 <li>
-                    lighter than normal coloring of the skin, hair, or eyes
+                    Lighter than normal coloring of the skin, hair, or eyes
                 </li>
                 <li>
-                    patches of skin that have an absence of color
+                    Patches of skin that have an absence of color
                 </li>
              </ol>
 

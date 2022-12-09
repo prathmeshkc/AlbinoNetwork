@@ -25,8 +25,14 @@ const PrivateRoute = ({ isAuthenticated, ...props }) => {
 };
 
 function App() {
+  let isTokenPresent = false;
+  const token = sessionStorage.getItem('accessToken');
 
-  const [isAuthenticated, isUserAuthenticated] = useState(false);
+  if (token) {
+    isTokenPresent = true;
+  }
+
+  const [isAuthenticated, isUserAuthenticated] = useState(isTokenPresent);
 
   return (
     <DataProvider>

@@ -41,33 +41,8 @@ const Contact = () => {
                     loved ones always helps, contacting for help to the right experts
                     can help mitigate some pain. The following organizations work hard to make
                     life for Albino's better everyday.
-                    <ul>
-                        <div class="spacing">
-                        <li>
-                            The National Organization for Albinism and Hypopigmentation (NOAH) <br></br>
-                            Website: <Link href="https://www.albinism.org/" color="inherit" target="_blank"> https://www.albinism.org/ </Link>
-                        </li>
-                        </div>
-                        <div class="spacing">
-                        <li>
-                            Albinism – Health For Kids  <br></br>
-                            Website: <Link href="https://www.kidshealth.org/" color="inherit" target="_blank"> https://www.kidshealth.org/ </Link>
-                        </li>
-                        </div>
-                        <div class="spacing">
-                        <li>
-                             Vision for Tomorrow  <br></br>
-                            Website: <Link href="https://visionfortomorrow.org/albinism/" color="inherit" target="_blank"> https://visionfortomorrow.org/albinism/ </Link>
-                        </li>
-                        </div>
-                        <div class="spacing">
-                        <li>
-                             Positive Exposure  <br></br>
-                            Website: <Link href="https://positiveexposure.org/" color="inherit" target="_blank"> https://positiveexposure.org/ </Link>
-                        </li>
-                        </div>
-                    </ul>
-                            
+                    <br></br>
+                    <br></br>         
                 </Text>
             </Wrapper>
 

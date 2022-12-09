@@ -31,3 +31,7 @@
     max-width: 255px;
     background-color: #333;
   }
+
+  .spacing{
+    margin-top: 10px;
+  }

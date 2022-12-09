@@ -1,6 +1,7 @@
 
 import { Box, styled, Typography, Link, Grid } from '@mui/material';
 import { GitHub, Instagram, Email } from '@mui/icons-material';
+import "./styles.css";
 
 const Banner = styled(Box)`
     background-image: url(https://storage.googleapis.com/afs-prod/media/media:27d069dfb7804bd89a7773719f0cfcaf/1000.jpeg);
@@ -36,22 +37,30 @@ const Contact = () => {
                     can help mitigate some pain. The following organizations work hard to make
                     life for Albino's better everyday.
                     <ul>
+                        <div class="spacing">
                         <li>
                             The National Organization for Albinism and Hypopigmentation (NOAH) <br></br>
                             Website: <Link href="https://www.albinism.org/" color="inherit" target="_blank"> https://www.albinism.org/ </Link>
                         </li>
+                        </div>
+                        <div class="spacing">
                         <li>
-                             Albinism – Kids Health For Kids  <br></br>
+                            Albinism – Kids Health For Kids  <br></br>
                             Website: <Link href="https://www.kidshealth.org/" color="inherit" target="_blank"> https://www.kidshealth.org/ </Link>
                         </li>
+                        </div>
+                        <div class="spacing">
                         <li>
                              Vision for Tomorrow  <br></br>
                             Website: <Link href="https://visionfortomorrow.org/albinism/" color="inherit" target="_blank"> https://visionfortomorrow.org/albinism/ </Link>
                         </li>
+                        </div>
+                        <div class="spacing">
                         <li>
                              Positive Exposure  <br></br>
                             Website: <Link href="https://positiveexposure.org/" color="inherit" target="_blank"> https://positiveexposure.org/ </Link>
                         </li>
+                        </div>
                     </ul>
                             
                 </Text>

@@ -146,25 +146,27 @@ const Contact = () => {
           aria-controls="panel3a-content"
           id="panel3a-header"
         >
-          <Typography style = {{color: "#2f2418", fontSize: 18}}><strong> Vision for Tomorrow </strong></Typography>
+          <Typography style = {{color: "#2f2418", fontSize: 18}}><strong> Positive Exposure </strong></Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-              The Vision for Tomorrow Foundation seeks to empower people with low vision to
-               have the confidence and ability to achieve their dreams. We envision a world 
-               where vision problems may be cured – or even prevented. That is why funding 
-               research is at the heart of our foundation. Research makes it possible to 
-               better understand and more effectively treat ocular complications common in 
-               albinism and aniridia, two conditions causing low vision from birth. We also 
-               know that we are stronger together and offer support and information to families 
-               affected by albinism and aniridia.
+              POSITIVE EXPOSURE promotes a more inclusive world through award-winning photography
+              , films, exhibitions, lectures and educational programs. For 25 years, 
+              POSITIVE EXPOSURE has collaborated globally with nonprofit organizations, 
+              hospitals, medical schools, educational institutions and advocacy groups to 
+              promote a more equitable and compassionate world where individuals and communities 
+              at risk of stigma and exclusion are understood, embraced and celebrated. They have
+              published a lot of content on Albinism as well. Its a great measure to spread 
+              positive awareness.
                 <p>
-               Website: <Link href="https://visionfortomorrow.org/albinism/" color="inherit" target="_blank"> https://visionfortomorrow.org/albinism/ </Link>
+                     Website: <Link href="https://positiveexposure.org/" color="inherit" target="_blank"> https://positiveexposure.org/ </Link>
                 </p>
 
           </Typography>
         </AccordionDetails>
       </Accordion>
+       <br></br>
+      <br></br>
         </Box>
     );
 }

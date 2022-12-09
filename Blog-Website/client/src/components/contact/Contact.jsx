@@ -34,7 +34,8 @@ const Contact = () => {
                 <Text variant="h5">
                     Albinism problems remain unspoken. While discussing the problems with
                     loved ones always helps, contacting for help to the right experts
-                    can help mitigate some pain. The following organizations work hard to make
+                    can help mitigate some pain. Life as an Albino always stays challenging.
+                    The following organizations work hard to make
                     life for Albino's better everyday.
                     <ul>
                         <div class="spacing">

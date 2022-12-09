@@ -107,9 +107,9 @@ const Contact = () => {
             Health for kids is an online portal providing guidance on various kids related issues,
             including Albinism. Albino health is a paramount problem amongst kids that needs
             expert guidance.
-
+            <p>
             Website: <Link href="https://www.kidshealth.org/" color="inherit" target="_blank"> https://www.kidshealth.org/ </Link>
-        
+            </p>
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -120,23 +120,47 @@ const Contact = () => {
           aria-controls="panel3a-content"
           id="panel3a-header"
         >
-          <Typography style = {{color: "#2f2418", fontSize: 18}}><strong> What are the signs of Albinism?</strong></Typography>
+          <Typography style = {{color: "#2f2418", fontSize: 18}}><strong> Vision for Tomorrow </strong></Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-              People with albinism will have the following symptoms:
+              The Vision for Tomorrow Foundation seeks to empower people with low vision to
+               have the confidence and ability to achieve their dreams. We envision a world 
+               where vision problems may be cured – or even prevented. That is why funding 
+               research is at the heart of our foundation. Research makes it possible to 
+               better understand and more effectively treat ocular complications common in 
+               albinism and aniridia, two conditions causing low vision from birth. We also 
+               know that we are stronger together and offer support and information to families 
+               affected by albinism and aniridia.
+                <p>
+               Website: <Link href="https://visionfortomorrow.org/albinism/" color="inherit" target="_blank"> https://visionfortomorrow.org/albinism/ </Link>
+                </p>
 
-             <ol>
-                <li>
-                   an absence of color in the skin, hair, or eyes
-                </li>
-                <li>
-                    lighter than normal coloring of the skin, hair, or eyes
-                </li>
-                <li>
-                    patches of skin that have an absence of color
-                </li>
-             </ol>
+          </Typography>
+        </AccordionDetails>
+      </Accordion>
+      <Accordion>
+        <AccordionSummary
+         style = {{backgroundColor: "#FBEEE5",marginTop:20}}
+          expandIcon={<ExpandMoreIcon />}
+          aria-controls="panel3a-content"
+          id="panel3a-header"
+        >
+          <Typography style = {{color: "#2f2418", fontSize: 18}}><strong> Vision for Tomorrow </strong></Typography>
+        </AccordionSummary>
+        <AccordionDetails>
+          <Typography>
+              The Vision for Tomorrow Foundation seeks to empower people with low vision to
+               have the confidence and ability to achieve their dreams. We envision a world 
+               where vision problems may be cured – or even prevented. That is why funding 
+               research is at the heart of our foundation. Research makes it possible to 
+               better understand and more effectively treat ocular complications common in 
+               albinism and aniridia, two conditions causing low vision from birth. We also 
+               know that we are stronger together and offer support and information to families 
+               affected by albinism and aniridia.
+                <p>
+               Website: <Link href="https://visionfortomorrow.org/albinism/" color="inherit" target="_blank"> https://visionfortomorrow.org/albinism/ </Link>
+                </p>
 
           </Typography>
         </AccordionDetails>

@@ -1,3 +1,3 @@
 # AlbinoNetwork
 
-## A Place where Albino People Can Connect
+## A Full Stack Application where Albino People Can Connect 

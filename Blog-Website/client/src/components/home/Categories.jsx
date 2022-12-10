@@ -21,6 +21,16 @@ const StyledLink = styled(Link)`
     color: inherit;
 `;
 
+function MouseOver(event) {
+    event.target.style.background = '#FFE4C4';
+  }
+  function MouseOut(event){
+    event.target.style.background="";
+  }
+
+
+
+
 const Categories = () => {
     const [searchParams] = useSearchParams();
     const category = searchParams.get('category');
@@ -33,9 +43,9 @@ const Categories = () => {
             
             <StyledTable>
                 <TableHead>
-                    <TableRow>
+                    <TableRow onMouseOver={MouseOver} onMouseOut={MouseOut}>
                         <TableCell>
-                            <StyledLink to={"/"}>
+                            <StyledLink to={"/"} >
                                 All Categories
                             </StyledLink>
                         </TableCell>
@@ -44,9 +54,9 @@ const Categories = () => {
                 <TableBody>
                     {
                         categories.map(category => (
-                            <TableRow key={category.id}>
+                            <TableRow key={category.id} onMouseOver={MouseOver} onMouseOut={MouseOut}>
                                 <TableCell>
-                                    <StyledLink to={`/?category=${category.type}`}>
+                                    <StyledLink to={`/?category=${category.type}`} >
                                         {category.type}
                                     </StyledLink>
                                 </TableCell>

@@ -58,5 +58,5 @@ const Categories = () => {
         </>
     )
 }
-//remove models
+
 export default Categories;

@@ -1,7 +1,5 @@
 
 import { Grid } from '@mui/material';
-
-//components
 import Banner from '../banner/Banner';
 import Categories from './Categories';
 import Posts from './post/Posts';

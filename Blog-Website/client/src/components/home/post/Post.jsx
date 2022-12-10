@@ -35,7 +35,7 @@ const Details = styled(Typography)`
     font-size: 14px;
     word-break: break-word;
 `;
-
+//ppsot
 const Post = ({ post }) => {
     const url = post.picture ? post.picture : '4K-White-Wallpaper-HD.jpg';
     

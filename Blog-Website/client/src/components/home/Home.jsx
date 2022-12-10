@@ -5,7 +5,7 @@ import { Grid } from '@mui/material';
 import Banner from '../banner/Banner';
 import Categories from './Categories';
 import Posts from './post/Posts';
-
+//All the forms
 const Home = () => {
 
     return (
